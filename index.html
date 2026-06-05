@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ibad Ullah | Full Stack Developer</title>
+  <meta name="description" content="Portfolio of Ibad Ullah — Full Stack Developer and BS Computer Science student building real-world web solutions.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <header>
+    <nav>
+      <div class="logo"><h2>Ibad Ullah</h2></div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" role="button" tabindex="0" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ── Hero ── -->
+  <section id="hero">
+    <div class="hero-content">
+      <img src="assets/profile.png.jpeg" alt="Ibad Ullah" class="profile-img">
+      <div class="status-badge">
+        <span class="status-dot"></span> Open to Internships &amp; Collaborations
+      </div>
+      <p class="hero-subtitle">Full Stack Developer &amp; CS Student</p>
+      <h1>Hi, I'm <span>Ibad Ullah</span></h1>
+      <p>Building real-world web solutions for educational institutions — from ERP systems to polished UI experiences.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#contact" class="btn secondary">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── About ── -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <p class="reveal">I'm a Computer Science student currently in my 6th semester, passionate about full-stack web development and building software that solves real problems. Most of my work lives at the intersection of backend systems and clean frontend design.</p>
+      <p class="reveal reveal-delay-1">I've built full-scale ERP systems for educational institutions using <strong>Node.js, Express.js, MongoDB, and EJS</strong> — covering everything from role-based auth to integrated payment gateways. I care about writing code that's secure, maintainable, and actually useful.</p>
+      <p class="reveal reveal-delay-2">I'm always learning — currently deepening my React.js skills and exploring system design. I'm open to internships, collaborations, or just a good conversation about tech.</p>
+    </div>
+  </section>
+
+  <!-- ── Skills ── -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-category reveal">
+        <h3>Languages</h3>
+        <div class="tag-group">
+          <span class="tag">HTML5</span><span class="tag">CSS3</span>
+          <span class="tag">JavaScript</span><span class="tag">Java</span>
+          <span class="tag">Python</span>
+        </div>
+      </div>
+      <div class="skill-category reveal reveal-delay-1">
+        <h3>Frontend</h3>
+        <div class="tag-group">
+          <span class="tag">React.js</span><span class="tag">Bootstrap</span>
+          <span class="tag">EJS</span><span class="tag">Responsive Design</span>
+        </div>
+      </div>
+      <div class="skill-category reveal reveal-delay-2">
+        <h3>Backend</h3>
+        <div class="tag-group">
+          <span class="tag">Node.js</span><span class="tag">Express.js</span>
+          <span class="tag">REST APIs</span><span class="tag">Auth / JWT</span>
+        </div>
+      </div>
+      <div class="skill-category reveal reveal-delay-3">
+        <h3>Databases</h3>
+        <div class="tag-group">
+          <span class="tag">MongoDB</span><span class="tag">MySQL</span>
+          <span class="tag">Mongoose</span>
+        </div>
+      </div>
+      <div class="skill-category reveal reveal-delay-4">
+        <h3>Tools &amp; Workflow</h3>
+        <div class="tag-group">
+          <span class="tag">Git</span><span class="tag">GitHub</span>
+          <span class="tag">VS Code</span><span class="tag">Postman</span>
+          <span class="tag">Streamlit</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Projects ── -->
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <h3>AttendPro — College ERP</h3>
+        <p>Full-stack ERP system for Govt. Degree College Wari with role-based dashboards, online fee payment via JazzCash &amp; Easypaisa, and complete admin control.</p>
+        <ul>
+          <li>Role-based access: admin, teacher, student</li>
+          <li>JazzCash &amp; Easypaisa payment integration</li>
+          <li>Attendance &amp; grade management</li>
+        </ul>
+        <a href="#" class="btn primary small">View Project</a>
+      </div>
+
+      <div class="project-card reveal reveal-delay-1">
+        <h3>E-commerce Store</h3>
+        <p>Complete online shopping platform built during a CodeAlpha internship, featuring authentication, product management, and a full order lifecycle.</p>
+        <ul>
+          <li>JWT authentication &amp; sessions</li>
+          <li>Cart, orders &amp; checkout flow</li>
+          <li>Admin product dashboard</li>
+        </ul>
+        <a href="#" class="btn primary small">View Project</a>
+      </div>
+
+      <div class="project-card reveal reveal-delay-2">
+        <h3>3D College Login Portal</h3>
+        <p>Modern 3D animated login page for Govt. Degree College Wari — futuristic CSS perspective transforms with smooth transitions.</p>
+        <ul>
+          <li>CSS 3D perspective transforms</li>
+          <li>Animated background layers</li>
+          <li>Mobile-responsive layout</li>
+        </ul>
+        <a href="#" class="btn primary small">View Project</a>
+      </div>
+
+      <div class="project-card reveal reveal-delay-3">
+        <h3>Glassmorphism Login UI</h3>
+        <p>Polished login interface using the glassmorphism trend — frosted glass panels, layered depth, and smooth entry animations.</p>
+        <ul>
+          <li>Backdrop-filter glass effect</li>
+          <li>CSS keyframe animations</li>
+          <li>Clean form validation UX</li>
+        </ul>
+        <a href="#" class="btn primary small">View Project</a>
+      </div>
+
+      <div class="project-card reveal reveal-delay-4">
+        <h3>JavaScript Mini Projects</h3>
+        <p>A collection of vanilla JS projects to sharpen fundamentals — responsive calculator, analog clock, and more interactive experiments.</p>
+        <ul>
+          <li>Pure vanilla JavaScript</li>
+          <li>DOM manipulation &amp; events</li>
+          <li>CSS + JS animations</li>
+        </ul>
+        <a href="#" class="btn primary small">View Project</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Education ── -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education-card reveal">
+      <h3>Bachelor of Science in Computer Science</h3>
+      <p><strong>Govt. Degree College Wari, Dir Upper</strong></p>
+      <p>Affiliated with Shaheed Benazir Bhutto University Sheringal</p>
+      <p style="margin-top:1rem">
+        <span class="tag">6th Semester</span>&nbsp;
+        <span class="tag">In Progress</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Contact ── -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    
+    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="text" name="bot-field" style="display:none" aria-hidden="true">
+
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="e.g. Ahmed Khan" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+
+      <button type="submit">Send Message &#8594;</button>
+    </form>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="social-links">
+      <a href="https://github.com/ibad123-svg" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/ibad-ullah-3a6502410" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.facebook.com/share/1Fz5aMGSsn/" target="_blank" rel="noopener">Facebook</a>
+    </div>
+    <p>&copy; 2026 Ibad Ullah &mdash; All Rights Reserved</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
