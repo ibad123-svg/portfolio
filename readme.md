@@ -19,8 +19,9 @@ Currently working on **AttendPro** — a complete College ERP system to digitize
 - **Database:** MongoDB
 - **Tools:** Git, GitHub, VS Code, Postman, Netlify
 -
-📫 Connect With Me
-Email: ibadanjum35@gmail.com
-LinkedIn: linkedin.com/in/ibad-ullah-3a6502410
-GitHub: github.com/ibad123-svg
-Portfolio: ibadportfolio1.netlify.app
+## 📫 Connect With Me
+
+- **Email:** ibadanjum35@gmail.com
+- **LinkedIn:** [linkedin.com/in/ibad-ullah-3a6502410](https://www.linkedin.com/in/ibad-ullah-3a6502410)
+- **GitHub:** [github.com/ibad123-svg](https://github.com/ibad123-svg)
+- **Portfolio:** [ibadportfolio1.netlify.app](https://ibadportfolio1.netlify.app)
