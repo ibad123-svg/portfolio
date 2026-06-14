@@ -1,5 +1,5 @@
-// <!-- ── script.js content (copy this into your script.js file) ──
-  // Hamburger toggle
+
+// Hamburger toggle
   const hamburger = document.getElementById('hamburger');
   const navMenu   = document.getElementById('navMenu');
 

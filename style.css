@@ -51,12 +51,20 @@ nav{
   display:flex;justify-content:space-between;align-items:center;
   max-width:1200px;margin:0 auto;height:68px;
 }
-.logo h2{
-  font-family:'Syne',sans-serif;font-size:1.45rem;font-weight:800;
+.logo h2 {
+  font-family:'Syne',sans-serif;
+  font-size:1.45rem;
+  font-weight:800;
   letter-spacing:-.02em;
   background:linear-gradient(90deg,var(--accent),var(--accent-2));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+
+  margin-top: 40px;   
+  padding-top: 30px; 
 }
+
 nav ul{list-style:none;display:flex;gap:.2rem}
 nav ul li a{
   color:var(--text-muted);font-size:.88rem;font-weight:500;
